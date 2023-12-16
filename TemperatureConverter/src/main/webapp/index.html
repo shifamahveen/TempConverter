@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Temperature Converter</title>
+</head>
+<body>
+
+	<form action="ConvertServlet" method="get">
+		<label>Value</label>
+		<input type="text" name="temp" placeholder="Enter temp value..."  />
+		
+		<br>
+		<label>Unit</label>
+		<br>
+		<input type="radio" name="unit" value="fahrenheit" />
+		<label>Fahrenheit</label>
+		
+		<br>
+		<input type="radio" name="unit" value="kelvin" />
+		<label>Kelvin</label>
+		
+		<input type="submit" value="Convert" />
+	</form>
+
+</body>
+</html>
